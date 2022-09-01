@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_margin= "20dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_baseline_view_list_24"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makerspace Inventory"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextAppID"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="12"
+            android:inputType="textPersonName"
+            android:hint="AppID"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextDatabase"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="12"
+            android:inputType="textPersonName"
+            android:hint="Database Name"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextCollection"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="12"
+            android:inputType="textPersonName"
+            android:hint="Collection Name"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/buttonConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/black"
+            android:text="confirm"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

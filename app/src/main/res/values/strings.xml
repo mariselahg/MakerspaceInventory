@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Makerspace Inventory</string>
+    <string name="search_button_desc">Search</string>
+    <string name="search_button_label">Search Inventory</string>
+    <string name="scan_button_desc">Scan</string>
+    <string name="scan_button_label">Scan Code</string>
+</resources>
